@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Third CSS</title>
+    <style>
+        p{
+            text-align:justify;
+        }
+        h1#happy{
+            text-align: left;
+            /* it evens out the line to occupy the space available */
+            border-width: 7px;/*computer reads code from top to bottom hene the last border will be rendered */
+            border-color:red ;
+            border-style: dotted;
+            border: 3px dashed blue;/*shorthand form to write border style*/
+            /* border-radius: 10px;
+            */
+            width: 200px;
+            height: 200px; 
+            
+            border-radius:50% 5px 50% 5px;
+            border-top-left-radius:5px ;
+            border-top-right-radius:50% ;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius:5px ;
+
+        }
+        div {
+            display: inline-block;
+            border:3px darkcyan dashed ;
+            width:200px ;
+            height: 200px;
+            }
+        span{
+            width: 200px;
+            height: 200px;
+            border: 3px orange dotted;
+            display: inline-block;
+            /* inline takes space allocated but inline-block/
+            block take tas much space as they can or you tell them to  */
+            }
+    </style>
+</head>
+<body id="third">
+    <h1 id="happy">This is my third CSS</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolorum architecto? Commodi magni ipsum, aspernatur, obcaecati quos iure facilis nam maxime repellendus iusto nihil tenetur dicta deserunt, minima quis magnam!
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolorum architecto? Commodi magni ipsum, aspernatur, obcaecati quos iure facilis nam maxime repellendus iusto nihil tenetur dicta deserunt, minima quis magnam!
+        <img src="unsplash.jpg" width="200"style='float:left; margin:10px;border:1px black solid; box-shadow:0px 0px 7px black;'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolorum architecto? Commodi magni ipsum, aspernatur, obcaecati quos iure facilis nam maxime repellendus iusto nihil tenetur dicta deserunt, minima quis magnam!
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolorum architecto? Commodi magni ipsum, aspernatur, obcaecati quos iure facilis nam maxime repellendus iusto nihil tenetur dicta deserunt, minima quis magnam!
+        
+    </p>
+    <div>
+        This is a block element.
+    </div>
+    <div>
+        This is a block element.
+    </div>
+    <br>
+    <span>
+        This is an inline element.
+    </span>
+    <ul>
+    <li>Me</li>
+    <li style="float:right" >And</li>
+    <li>You</li>
+    </ul>
+</body>
+</html> 
